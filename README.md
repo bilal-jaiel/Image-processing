@@ -15,7 +15,7 @@ PPM/PBM image processing in C
 4. [Conclusion](#conclusion)
 
 ## Introduction
-The goal of this project is to implement various image processing techniques on grayscale and color images, as explored in TP6.
+The goal of this project is to implement various image processing techniques on grayscale and color images.
 
 ## Project Structure
 The project consists of the following files, which include both predefined functions and additional ones created for specific tasks:
