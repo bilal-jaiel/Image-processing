@@ -1,4 +1,4 @@
-# Image-processing
+# Image Processing
 PPM/PBM image processing in C
 
 ## Author: Bilâl Jaiel  
