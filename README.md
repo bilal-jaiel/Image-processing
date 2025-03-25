@@ -1,5 +1,6 @@
 # Image Processing
 PPM/PBM image processing in C
+Development of a C program to manipulate images in PPM and PBM formats. Performance optimization and efficient memory management (pointers, dynamic allocation).
 
 ## Author: Bilâl Jaiel  
 **Date:** January 4, 2025  
