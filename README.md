@@ -21,19 +21,13 @@ The goal of this project is to implement various image processing techniques on 
 The project consists of the following files, which include both predefined functions and additional ones created for specific tasks:
 
 ```
-./project
-|
-|-> main.c
-|
-|-> filename.[h/c]
-|
-|-> lut.[h/c]
-|
-|-> Makefile
-|
-|-> pixels.[h/c]
-|
-|-> pictures.[h/c]
+main.c
+filename.[h/c]
+lut.[h/c]
+Makefile
+pixels.[h/c]
+pictures.[h/c]
+doc/rapport.pdf
 ```
 
 ### Notable Functions:
@@ -55,16 +49,16 @@ The project consists of the following files, which include both predefined funct
 ## Technical Choices and Solutions
 
 ### General Remarks
-Images are typically represented as 2D arrays, but in this project, they are processed as a single byte array for easier manipulation.
+In an image, each pixel is represented by one or more bytes, depending on the format. In visual terms, this structure is represented in the form of an array. However, in my code, I treat images as a single line of bytes via a list, as I find this more comfortable. In this way, pixel access operations are applied to a single line.
 
 ### LUT Implementation
-- **create_lut:** Uses `calloc` to initialize all LUT values to zero, preventing potential errors.
-- **apply_lut:** Uses a scaling operation to match the LUT size with the number of bytes in the image.
+- **`create_lut`:** Uses `calloc` to initialize all LUT values to zero, preventing potential errors.
+- **`apply_lut`:** Uses a scaling operation to match the LUT size with the number of bytes in the image.
 
 ### Image Processing Functions
-- **read_picture:** Handles commented lines and properly positions the file cursor for correct image byte reading.
-- **canopen / canwrite:** Separate functions to check file readability and writability, reducing redundancy.
-- **melt_picture:** Determines the darker pixel by summing RGB components and comparing values.
+- **`read_picture`:** Handles commented lines and properly positions the file cursor for correct image byte reading.
+- **`canopen` / `canwrite`:** Separate functions to check file readability and writability, reducing redundancy.
+- **`melt_picture`:** Determines the darker pixel by summing RGB components and comparing values.
 
 ## Main Program
 The main program (`main.c`) integrates all the functionalities and allows processing images with the implemented transformations.
