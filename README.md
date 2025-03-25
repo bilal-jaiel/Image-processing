@@ -41,7 +41,7 @@ The project consists of the following files, which include both predefined funct
 - **int pixel(int comp, int nb_chan, int c):** Computes the byte position of a pixel based on its parameters.
 
 #### pictures.[h/c]:
-- **FILE* canopen(char* filename):** Checks if a file can be opened for reading.
+- **`FILE* canopen(char* filename):`** Checks if a file can be opened for reading.
 - **FILE* canwrite(char* filename):** Checks if a file can be opened for writing.
 - **int is_gray_picture(picture p):** Returns 1 if the image is grayscale, otherwise 0.
 - **int is_color_picture(picture p):** Returns 1 if the image is in color, otherwise 0.
