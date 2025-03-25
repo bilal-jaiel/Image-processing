@@ -1,0 +1,18 @@
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Structure du projet}{2}{section.2}%
+\contentsline {section}{\numberline {3}Choix Techniques et Résolutions}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Remarques générales}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}lut.[h/c]}{4}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}create\_lut}{4}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}apply\_lut}{4}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}pictures.[h/c]}{4}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}read\_picture}{4}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}canopen / canwrite}{4}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}melt\_picture}{5}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.4}normalize\_dynamic\_picture}{5}{subsubsection.3.3.4}%
+\contentsline {subsubsection}{\numberline {3.3.5}mult\_picture}{5}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.6}grow\_size\_nearest\_neighbor\_interpolation}{5}{subsubsection.3.3.6}%
+\contentsline {subsubsection}{\numberline {3.3.7}grow\_size\_bi\_linear\_interpolation}{6}{subsubsection.3.3.7}%
+\contentsline {subsubsection}{\numberline {3.3.8}reduce\_size\_[nearest\_neighbor, bi\_linear]\_interpolation}{6}{subsubsection.3.3.8}%
+\contentsline {subsection}{\numberline {3.4}main.c}{6}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Conclusion}{6}{section.4}%
