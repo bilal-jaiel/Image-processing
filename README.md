@@ -1,8 +1,6 @@
 # Image-processing
 PPM/PBM image processing in C
 
-# Image Processing Project 2024
-
 ## Author: Bilâl Jaiel  
 **Date:** January 4, 2025  
 
