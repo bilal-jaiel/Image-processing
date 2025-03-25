@@ -42,15 +42,15 @@ The project consists of the following files, which include both predefined funct
 
 #### pictures.[h/c]:
 - **`FILE* canopen(char* filename):`** Checks if a file can be opened for reading.
-- **FILE* canwrite(char* filename):** Checks if a file can be opened for writing.
-- **int is_gray_picture(picture p):** Returns 1 if the image is grayscale, otherwise 0.
-- **int is_color_picture(picture p):** Returns 1 if the image is in color, otherwise 0.
-- **int rand_up_to(int max):** Returns a random number between 0 and max.
-- **int byte_number(picture p):** Returns the total number of bytes in an image.
-- **picture grow_size_nearest_neighbor_interpolation(picture p, double factor):** Enlarges an image using the nearest neighbor interpolation method.
-- **picture reduce_size_nearest_neighbor_interpolation(picture p, double factor):** Reduces an image using the nearest neighbor interpolation method.
-- **picture grow_size_bi_linear_interpolation(picture p, double factor):** Enlarges an image using bilinear interpolation.
-- **picture reduce_size_bi_linear_interpolation(picture p, double factor):** Reduces an image using bilinear interpolation.
+- **`FILE* canwrite(char* filename):`** Checks if a file can be opened for writing.
+- **`int is_gray_picture(picture p):`** Returns 1 if the image is grayscale, otherwise 0.
+- **`int is_color_picture(picture p):`** Returns 1 if the image is in color, otherwise 0.
+- **`int rand_up_to(int max):`** Returns a random number between 0 and max.
+- **`int byte_number(picture p):`** Returns the total number of bytes in an image.
+- **`picture grow_size_nearest_neighbor_interpolation(picture p, double factor):`** Enlarges an image using the nearest neighbor interpolation method.
+- **`picture reduce_size_nearest_neighbor_interpolation(picture p, double factor):`** Reduces an image using the nearest neighbor interpolation method.
+- **`picture grow_size_bi_linear_interpolation(picture p, double factor):`** Enlarges an image using bilinear interpolation.
+- **`picture reduce_size_bi_linear_interpolation(picture p, double factor):`** Reduces an image using bilinear interpolation.
 
 ## Technical Choices and Solutions
 
